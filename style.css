@@ -159,6 +159,18 @@ html, body{
 
 }
 
+.inner-text{
+    text-align: center;
+    color: white;
+    opacity: 0;
+}
+
+.inner-text:hover{
+    background-color: black;
+    opacity: 20px;
+
+}
+
 
 
 
