@@ -9,25 +9,7 @@
 
 /*---------------------------Loader----------------------*/
 
-.loader {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    border: 4px solid #Fff;
-    animation: loader 2s infinite ease;
-  }
 
-
-
-
-.header{
-    min-height: 100vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
 
 /*------------------------navigation-------------------*/
 nav{
