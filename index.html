@@ -10,6 +10,11 @@
     <title>Itoro Umoeka | UX Design Portfolio</title>
 </head>
 <body>
+
+    <div class="loader-wrapper">
+        <span class="loader"></span class="loader-inner"></span></span>
+    </div>
+
     <section class="header">
         <nav>
             <a href="index.html"><img src="qualitee.svg" alt="brand logo"></a>
@@ -50,8 +55,10 @@
             <div class="campus-col">
                 <img src="Rectangle 2.png">
                 <div class="layer">
+                    
                     <div class="top-text">
                         <h3>BoardSmart Mobile Application</h3>
+                        <p></p>
                     </div>
 
                     <div class="bottom-text">
@@ -116,6 +123,11 @@
 
  <!--------Javascript for  toggle menu-------->
 
+
+
+
+
+ 
  <script>
 
     var navLinks = document.getElementById("navLinks");
@@ -129,6 +141,17 @@
     }
 
 </script>
+
+
+<!------------Javascript for loading animation-------->
+
+<script>
+
+    $(window).on("load",function(){
+         $(".loader-wrapper").fadeOut("slow");
+    });
+    
+    </script>
 
 
 </body>
