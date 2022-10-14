@@ -90,6 +90,7 @@ nav .fa{
         padding: 30px;
 
     }
+
 }
 
 
@@ -179,6 +180,14 @@ nav .fa{
 
     .text-box{
         margin-top: 50%;
+    }
+
+    .text-box h1{
+        font-size: 30px;
+    }
+
+    .text-box h3{
+        font-size: 20px;
     }
 }
 
@@ -302,4 +311,9 @@ nav .fa{
 .project-3{
     padding: 10px;
     border-width: 0.5px;
+}
+
+.other-projects-footer a{
+    text-decoration: none;
+    color: black;
 }
