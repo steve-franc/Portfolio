@@ -148,6 +148,10 @@ nav .fa{
     transition: 1s;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 
 @media(max-width: 700px){
@@ -171,7 +175,7 @@ nav .fa{
         transition: 1s
     }
 
-    .row{
+    #row{
         flex-direction: column;
         column-gap: 10em;
     }
@@ -189,7 +193,7 @@ nav .fa{
     }
 }
 
-/*----------------mentally replace "campus" with projects for better understanding------------------*/
+/*----------------mentally replace "campus" with "projects" for better understanding------------------*/
 
 
 .campus{
@@ -199,7 +203,7 @@ nav .fa{
     padding-top: 50px;
 }
 
-.row{
+#row{
     display: flex;
     justify-content: center;
     gap: 2em;
@@ -316,4 +320,31 @@ nav .fa{
 .other-projects-footer a{
     text-decoration: none;
     color: black;
+}
+
+
+.back-to-top{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.back-to-top button{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #3A9FD5;
+    font-size: 16px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    padding: 12px 34px;
+    
+}
+
+.back-to-top button:hover{
+    border: 1px solid #3A9FD5;
+    background: #3A9FD5;
+    color: white;
+    transition: 1s;
 }
