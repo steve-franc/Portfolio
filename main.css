@@ -109,6 +109,13 @@ nav .fa{
     width: 90%;
 }
 
+@media(max-width:700px){
+    .title{
+        margin: 0;
+        width: 90%;
+        
+    }
+}
 
 .contact-form{
     width: 100%;
