@@ -21,6 +21,7 @@ nav img{
 }
 
 
+
 .nav-links ul li{
     list-style: none;
     display: inline-block;
@@ -35,7 +36,7 @@ nav img{
 }
 
 .nav-links ul li::after{
-    content:'' ;
+    content:'';
     width: 0%;
     height: 2px;
     background: #3A9FD5;
@@ -44,11 +45,12 @@ nav img{
     transition: 0.5s;
 }
 
-#active{
-    border-style: none none solid none;
-    border-color: #3A9FD5;
-    border-width: .5px;
+
+.nav-links .active{
+    color: #3A9FD5;
 }
+
+
 
 .nav-links ul li:hover::after{
     width: 100%;
@@ -58,6 +60,9 @@ nav img{
 nav .fa{
     display: none;
 }
+
+
+
 
 
 @media(max-width: 700px){
