@@ -98,58 +98,27 @@ nav .fa{
 }
 
 
-/*-------contact form--------------*/
+/*-----------------contact form---------------------*/
 
-.container{
+
+
+.gform{
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 80px;
-    width: 90%;
+    width: 80%;
 }
 
-@media(max-width:700px){
-    .title{
-        margin: 0;
-        width: 90%;
-        
-    }
-}
 
-.contact-form{
+.form-elements{
     width: 100%;
-}
-
-
-.form-handler{
-    width: 100%;
-    height: 200px;
-    border-color: #cccbcb;
-    border-radius: 3px;
-    padding: 14px 16px;
-    font-size: medium;
-
-}
-
-.title{
-    text-align: left;
+    
 }
 
 
 
-.sender{
-    width: 100%;
-    text-align: left;
-    margin-top: 50px;
-
-}
-
-
-h1{
-    margin-bottom: 25px;
-    font-weight: 500;
-}
 
 input{
     height: 20%;
@@ -162,21 +131,17 @@ input{
     font-size: medium;
 }
 
-
-
-.button{
-    width: 100%;
+textarea{
+    width: 90%;
+    height: 200px;
+    border-color: #cccbcb;
+    border-radius: 3px;
+    padding: 14px 16px;
+    font-size: medium;
+    margin-bottom: 40px;
 }
 
-.submit-button{
-    align-items: center;
-    margin-top: 50px;
-    justify-content: space-between;
-    width: 100%;
-    row-gap: 20px;
-}
-
-.button-cta{
+button{
     display: inline-block;
     text-decoration: none;
     color: black;
@@ -187,13 +152,30 @@ input{
     cursor: pointer;
     padding: 12px 34px;
     margin-bottom: 50px;
+    width: 30%;
+    margin-top: 30px;
 }
 
-.button-cta:hover{
-    
-        border: 1px solid #3A9FD5;
+
+button:hover{
+    border: 1px solid #3A9FD5;
         background: #3A9FD5;
         color: white;
         transition: 1s;
-    
+}
+
+a{
+    text-decoration: none;
+    color: #3A9FD5;
+    font-size: 20px;
+}
+
+.thankyou_message h1{
+    font-weight: 600;
+}
+
+@media(max-width:700px){
+    button{
+        width: 100%;
+    }
 }

@@ -3,38 +3,68 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" href="logo crop.png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100;1,400&display=swap" rel="stylesheet">
+  <title>Itoro Umoeka | UX Design Portfolio-Contact</title>
 </head>
 <body>
-  <br>
-  <center>
+  <section id="header">
+
+    <nav>
+
+      <a href="index.html"><img src="qualitee.svg" alt="brand logo"></a>
+      <div class="nav-links" id="navLinks">
+          <i class="fa fa-times"onclick="hideMenu()"></i>
+          <ul>
+              <li><a href="https://stevie-frank.webflow.io/about">ABOUT</a></li>
+              <li><a href="contactus.html">WORK WITH ME</a></li>
+              <li><a href="Resume.pdf">CV</a></li>
+          </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+
+  </nav>
+
+  </section>
+
+
   <form class="gform pure-form pure-form-stacked" method="POST" data-email="itoroumoeka@gmail.com"
-  action="https://script.google.com/macros/s/AKfycbwsMl79rq7Wj6t_Z8MbFywGd16ALDs3xFA_DTmLyDAnLiApDP1PCUxIacfJaxSrc_-z/exec">
-    <div class="form-elements"><br>
-      <div style="background:none;border:8px solid gray;border-radius: 30px;width: 400px;padding-top: 15px;padding-bottom: 40px;padding-left: 20px;padding-right: 20px;"><br>
-        <b class="content-head" style="font-size: 2.3em;">Contact Us!</b>
+    action="https://script.google.com/macros/s/AKfycbwsMl79rq7Wj6t_Z8MbFywGd16ALDs3xFA_DTmLyDAnLiApDP1PCUxIacfJaxSrc_-z/exec">
+    <div class="form-elements">
+
+      <div class="fields">
+
+        <b class="content-head" style="font-size: 30px; font-weight: 500;">Dear Francis,</b>
         <br><br>
-         <b style="margin-left: -255px;font-size: 1.3em;">Name</b><br>
-        <input type="text" name="name" required="" style="font-size: 1em;width: 300px;"/><br><br>
 
-        <b style="margin-left: -255px;font-size: 1.3em;">Email</b><br>
-        <input type="email" name="email" required="" style="font-size: 1em;width: 300px;"/><br><br>
+        <textarea  name="message" required="" placeholder="Your message here..."></textarea>
 
-         <b style="margin-left: -255px;font-size: 1.3em;">Phone</b><br>
-         <input type="number"  name="phone" required="" style="font-size: 1em;width: 300px;"/><br><br>
-      
-        <b style="margin-left: -110px;font-size: 1.3em;">How can we help you?</b><br>
-        <textarea  name="message" rows="5" cols="22" required="" style="font-size: 1.3em;width: 300px;"></textarea><br><br>
+
+        
+        <b class="content-head" style="font-size: 30px; font-weight: 500;">Best,</b>
+        <br><br>
+
+        <input type="text" name="name" required="" placeholder="Your name"/><br><br>
+
+        
+        <input type="email" name="email" required="" placeholder="Your email"/><br><br>
+
+              
+        
     
-        <button style="float: right;width: 100px;height: 27px;font-size: 1.1em;margin-right: 48px;">
-        send</button><br>
+        <button>Send Message</button><br>
+
       </div>
     </div>
 
     <!-- Thankyou_message --><br>
-    <div class="thankyou_message" style="display:none;background:none;border:8px solid gray;border-radius: 40px;width: 400px;padding-top: 15px;padding-bottom: 40px;padding-left: 20px;padding-right: 20px;"><br><br>
-      <h1>Thanks for contacting us!</h1>
-      <h1>*******</h1>
+    <div class="thankyou_message" style="display:none;background:none; width: 100%; text-align: center;"><br><br>
+      <h1>I'll get back to you soon!</h1><br><br>
+
+      <a href="contactus.html">Go Back</a>
+      
+      
     </div>
   </form>
   <script data-cfasync="false" type="text/javascript">
@@ -148,6 +178,5 @@
 
 
   </script>
-</center>
 </body>
 </html>
