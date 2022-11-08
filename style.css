@@ -52,6 +52,7 @@ nav img{
 /*-------hide nav icons for larger breakpoints-----*/
 nav .fa{
     display: none;
+    color: black;
 }
 
 
